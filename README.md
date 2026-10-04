@@ -24,3 +24,6 @@ The algorithm builds the DFA by grouping NFA states into subsets:
 3. **State Discovery:** If the resulting union forms a new subset that hasn't been encountered yet, it is recorded as a new DFA state and added to the queue to be explored later.
 4. **Final States:** A newly created DFA state is marked as a final state if it contains at least one state that was a final state in the original NFA.
 5. **Iteration:** This process repeats until the queue is empty (meaning all reachable subsets have been explored), resulting in a complete deterministic transition table.
+
+## Input and Output Example
+<img width="535" height="422" alt="image" src="https://github.com/user-attachments/assets/46841a2b-3896-46a5-bd43-179bec7312c6" />
